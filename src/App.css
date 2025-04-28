@@ -1,0 +1,289 @@
+/* ------------------------ */
+/* Todo App Styling (Unchanged) */
+/* ------------------------ */
+.app_container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.app_container h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 8px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background-color: #f8f8f8;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.button-group {
+  display: flex;
+  gap: 6px;
+}
+
+
+/* ------------------------ */
+/* Signup & Login Page Styling */
+/* ------------------------ */
+
+.auth_container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.auth_form h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.auth_form input[type="text"],
+.auth_form input[type="email"],
+.auth_form input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+}
+
+.auth_form input:focus {
+  border-color: #007bff;
+}
+
+.auth_form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.auth_form button:hover {
+  background-color: #0056b3;
+}
+
+.google-btn,
+.facebook-btn {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+}
+
+.google-btn {
+  background-color: #db4437;
+}
+
+.facebook-btn {
+  background-color: #3b5998;
+}
+
+.google-btn:hover {
+  background-color: #c23321;
+}
+
+.facebook-btn:hover {
+  background-color: #2d4373;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* App container
+.app_container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+  /* background-color: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+} */
+
+/* Heading */
+/* .app_container h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+} */
+
+/* Input */
+/* input[type="text"] {
+  width: 70%;
+  padding: 8px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  margin-bottom: 10px;
+} */
+
+/* Button */
+/* button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+} */
+/* 
+button:hover {
+  background-color: #0056b3;
+} */
+
+/* Todo list */
+/* ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+} */
+/* 
+li {
+  background-color: #f8f8f8;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* Fix button spacing */
+/* .button-group {
+  display: flex;
+  gap: 6px;
+}  */
